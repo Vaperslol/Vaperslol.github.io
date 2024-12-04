@@ -1,4 +1,125 @@
-body{
-    background-color: violet;
-    color: purple;
+@font-face {
+    font-family: 'PastorOfMuppets';
+    src: url('betutipus/pastor\ of\ muppets.ttf') format('truetype');
+}
+
+nav {
+    background: linear-gradient(to bottom, #484f5a 20%, #768394 80%);
+}
+
+.nav-link {
+    color: rgb(210, 220, 198);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'PastorOfMuppets', sans-serif ;
+}
+
+#navszov {
+    font-size: 1.5rem; 
+    letter-spacing: 1px; 
+    font-family: 'PastorOfMuppets', sans-serif;
+}
+
+body {
+    color: rgb(60, 60, 60);
+    background: linear-gradient(to top, #f7f9db 20%, #768394 80%);
+}
+
+.card {
+    padding: 3%;
+    margin: 3%;
+    background: linear-gradient(to top right, #f7f9db 0%, #768394 100%);
+    border: none;
+    color: rgb(46, 46, 46);
+    font-weight: normal;
+}
+
+main {
+    padding: 20px;
+    width: 95%;
+    min-width: 400px;
+    max-width: 1400px;
+    margin: auto;
+    font-weight: bold;
+}
+
+#banner {
+    background-image: url(kepek/bandakep.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.col {
+    width: 20em;
+    padding-right: 1em;
+}
+
+audio {
+    width: 100%;
+}
+h1{
+    font-size: 5rem; 
+    letter-spacing: 1px; 
+    font-family: 'PastorOfMuppets', sans-serif;
+}
+h2{
+    font-size: 3rem; 
+    letter-spacing: 1px; 
+    font-family: 'PastorOfMuppets', sans-serif; 
+}
+p{
+    font-size: large;
+}
+header {
+    padding: 10px;
+    width: 95%;
+    min-width: 400px;
+    max-width: 1400px;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#mlogo{
+    height: 1.2em;
+    width: auto;
+}
+div.card\ mb-3{
+    width: 60em;
+    height: auto;
+}
+.elso{
+    float: right;
+    height: auto;
+    width: 27%;
+    padding-right: 1em;
+}
+.uccso{
+    float: left;
+    height: auto;
+    width: 27%;
+    padding: 1em;
+}
+#cim{
+    text-align: center;
+}
+li{
+    padding-bottom: 1em;
+}
+#w91{
+    float: right;
+    height: auto;
+    width: 43%;
+    padding: 1em;
+}
+.nav-link\ active, .nav-link{
+font-size: 2em;
+}
+#grammy{
+    float: right;
+height: auto;
+width: 40%;
+padding: 1em;
 }
