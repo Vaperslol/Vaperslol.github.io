@@ -123,3 +123,12 @@ height: auto;
 width: 40%;
 padding: 1em;
 }
+.card{
+    height: 45em;
+}
+
+.borito{
+    float: right;
+    width: 40%;
+    border: 1px solid black;
+}
