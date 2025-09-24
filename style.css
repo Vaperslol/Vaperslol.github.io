@@ -129,6 +129,22 @@ padding: 1em;
 
 .borito{
     float: right;
-    width: 40%;
+    width: 240px;
     border: 1px solid black;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+
+td{
+    padding: auto;
+    font-size: small;
+}
+th{
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
