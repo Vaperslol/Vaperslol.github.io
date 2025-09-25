@@ -123,9 +123,6 @@ height: auto;
 width: 40%;
 padding: 1em;
 }
-.card{
-    height: 45em;
-}
 
 .borito{
     float: right;
@@ -147,4 +144,9 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
+}
+.szamok{
+   width: 80% ;
+   border-color: linear-gradient(to top, #f7f9db 20%, #768394 80%);
+   border-radius: 30%;
 }
