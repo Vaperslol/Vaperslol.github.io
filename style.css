@@ -114,6 +114,10 @@ div.card\ mb-3 {
 #cim {
     text-align: center;
 }
+#metlogo { 
+    max-width: 100%;
+    min-width: auto;
+}
 
 li {
     padding-bottom: 1em;
