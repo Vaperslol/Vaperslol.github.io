@@ -11,12 +11,12 @@ nav {
     color: rgb(210, 220, 198);
     font-size: 1.5rem;
     letter-spacing: 1px;
-    font-family: 'PastorOfMuppets', sans-serif ;
+    font-family: 'PastorOfMuppets', sans-serif;
 }
 
 #navszov {
-    font-size: 1.5rem; 
-    letter-spacing: 1px; 
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     font-family: 'PastorOfMuppets', sans-serif;
 }
 
@@ -60,19 +60,23 @@ main {
 audio {
     width: 100%;
 }
-h1{
-    font-size: 5rem; 
-    letter-spacing: 1px; 
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: 1px;
     font-family: 'PastorOfMuppets', sans-serif;
 }
-h2{
-    font-size: 3rem; 
-    letter-spacing: 1px; 
-    font-family: 'PastorOfMuppets', sans-serif; 
+
+h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-family: 'PastorOfMuppets', sans-serif;
 }
-p{
+
+p {
     font-size: large;
 }
+
 header {
     padding: 10px;
     width: 95%;
@@ -82,49 +86,59 @@ header {
     font-size: xx-large;
     font-weight: bold;
 }
-#mlogo{
+
+#mlogo {
     height: 1.2em;
     width: auto;
 }
-div.card\ mb-3{
+
+div.card\ mb-3 {
     width: 60em;
     height: auto;
 }
-.elso{
+
+.elso {
     float: right;
     height: auto;
     width: 27%;
     padding-right: 1em;
 }
-.uccso{
+
+.uccso {
     float: left;
     height: auto;
     width: 27%;
     padding: 1em;
 }
-#cim{
+
+#cim {
     text-align: center;
 }
-li{
+
+li {
     padding-bottom: 1em;
 }
-#w91{
+
+#w91 {
     float: right;
     height: auto;
     width: 43%;
     padding: 1em;
 }
-.nav-link\ active, .nav-link{
-font-size: 2em;
-}
-#grammy{
-    float: right;
-height: auto;
-width: 40%;
-padding: 1em;
+
+.nav-link\ active,
+.nav-link {
+    font-size: 2em;
 }
 
-.borito{
+#grammy {
+    float: right;
+    height: auto;
+    width: 40%;
+    padding: 1em;
+}
+
+.borito {
     float: right;
     width: 240px;
     border: 1px solid black;
@@ -133,20 +147,42 @@ padding: 1em;
 }
 
 
-td{
-    padding: auto;
-    font-size: small;
-}
-th{
+td {
+    padding: 0.5%;
     font-size: medium;
+    padding-right: fixed;
 }
-a{
+
+th {
+    font-size: large;
+    padding: 1%;
+}
+
+a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
 }
-.szamok{
-   width: 80% ;
-   border-color: linear-gradient(to top, #f7f9db 20%, #768394 80%);
-   border-radius: 30%;
+
+.szamok {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.szamok:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+tr:hover{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+td.tablefont a{
+    color: black;
+    font-weight: bold;
+}
+td.tablefont a:hover{
+    font-weight: bolder;
+}
+tr:hover a{
+    color: white;
 }
