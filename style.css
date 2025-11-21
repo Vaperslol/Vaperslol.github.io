@@ -225,9 +225,15 @@ tr:hover a{
     border: 1px solid black;
 }
 @keyframes wave-shadow{
-    50% {box-shadow: 2px 2px 100px rgb(74, 74, 74);}
+    50% {box-shadow: 2px 2px 200px rgb(74, 74, 74);}
 }
 
 a.dijas{
  max-width: fit-content;   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: goldenrod;
+}
+.nav-link:hover{
+    color: goldenrod;
 }
