@@ -4,7 +4,7 @@
 }
 
 nav {
-    background: linear-gradient(to bottom, #484f5a 20%, #768394 80%);
+    background: linear-gradient(to bottom, #414141 20%, #181818 80%);
 }
 
 .nav-link {
@@ -21,8 +21,9 @@ nav {
 }
 
 body {
-    color: rgb(60, 60, 60);
-    background: linear-gradient(to top, #f7f9db 20%, #768394 80%);
+    color: rgb(185, 185, 185);
+    background: linear-gradient(to top, #000000 20%, #181818 80%);
+
 }
 
 .card {
@@ -100,14 +101,14 @@ div.card\ mb-3 {
 .elso {
     float: right;
     height: auto;
-    width: 27%;
+    width: 18rem;
     padding-right: 1em;
 }
 
 .uccso {
     float: left;
     height: auto;
-    width: 27%;
+    width: 18rem;
     padding: 1em;
 }
 
@@ -118,6 +119,8 @@ div.card\ mb-3 {
     max-width: 100%;
     min-width: auto;
 }
+
+
 
 li {
     padding-bottom: 1em;
@@ -174,14 +177,14 @@ a {
 }
 
 .szamok:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(196, 196, 196, 0.05);
 }
 tr:hover{
     background-color: rgb(50, 50, 50);
     color: white;
 }
 td.tablefont a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 td.tablefont a:hover{
@@ -189,4 +192,42 @@ td.tablefont a:hover{
 }
 tr:hover a{
     color: white;
+}
+
+.dijak{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+
+    border: 1px solid;
+    border-color: linear-gradient(to bottom right, #768394 14%, #181818 100%);
+    border-radius: 25px;
+    background-color: rgb(21, 21, 21);
+    
+    width: fit-content;
+}
+
+.dijak:hover{
+    animation-name: wave-shadow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.dijak h2{
+    padding-top: 1rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.dij-kijelolo{
+    width: 43rem;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+@keyframes wave-shadow{
+    50% {box-shadow: 2px 2px 100px rgb(74, 74, 74);}
+}
+
+a.dijas{
+ max-width: fit-content;   
 }
