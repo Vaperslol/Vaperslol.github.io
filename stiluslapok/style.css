@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PastorOfMuppets';
-    src: url('betutipus/pastor\ of\ muppets.ttf') format('truetype');
+    src: url('../betutipus/pastor\ of\ muppets.ttf') format('truetype');
 }
 
 nav {
@@ -45,7 +45,7 @@ main {
 }
 
 #banner {
-    background-image: url(kepek/bandakep.jpg);
+    background-image: url(../kepek/bandakep.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: contain;
