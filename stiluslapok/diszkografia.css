@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'PastorOfMuppets';
+    src: url('../betutipus/pastor\ of\ muppets.ttf') format('truetype');
+}
+
+.card {
+    padding: 3%;
+    margin: 3%;
+    background: linear-gradient(to top right, #000000 0%, #181818 100%);
+    border: none;
+    color: rgb(185, 185, 185);
+    font-weight: normal;
+}
+
+div.card\ mb-3 {
+    width: 60em;
+    height: auto;
+}
+
+.card a{
+    color: white;
+    font-family: 'PastorOfMuppets';
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.card h6{
+    font-family: 'PastorOfMuppets';
+    font-size: xx-large;
+}
+
+.card a:hover{
+    color: gray;
+    text-shadow: 0 0 10px rgb(98, 98, 98);
+}
+
+.card img{
+    border: 1px solid white;
+    border-radius: 2%;
+}
