@@ -5,6 +5,8 @@
 
 
 .card {
+    margin: 3%;
+    padding: 3%;
     background: linear-gradient(to top, #000000 0%, #353535 100%);
     border: none;
     color: rgb(255, 255, 255);
@@ -23,17 +25,15 @@ h5{
     font-size: xx-large;
 }
 
-.banner{
+.container\ galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+
+
+.img-thumbnail{
     height: 30rem;
-
+    margin-bottom: 3rem;
+    width: 50rem;
 }
-
-.banner img{
-    width: 100%;
-}
-
-header{
-    width: 100vw;
-}
-
