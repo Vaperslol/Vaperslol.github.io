@@ -25,15 +25,23 @@ h5{
     font-size: xx-large;
 }
 
-.container\ galeria{
+.galeria{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 
 
 .img-thumbnail{
-    height: 30rem;
+    height: auto;
+    margin: auto;
     margin-bottom: 3rem;
-    width: 50rem;
+    width: 30rem;
+    border: 3px solid yellow
+}
+
+table{
+    height: fit-content;
+    margin-bottom: 3rem;
 }

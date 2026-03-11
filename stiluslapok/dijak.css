@@ -42,7 +42,7 @@
 }
 
 @keyframes wave-shadow{
-    50% {box-shadow: 2px 2px 200px rgb(74, 74, 74);}
+    50% {box-shadow: 2px 2px 90px rgb(74, 74, 74);}
 }
 
 a.dijas{
