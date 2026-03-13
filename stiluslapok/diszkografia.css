@@ -38,3 +38,36 @@ div.card\ mb-3 {
     border: 1px solid white;
     border-radius: 2%;
 }
+
+td {
+    padding: 0.5%;
+    font-size: medium;
+    padding-right: fixed;
+}
+
+th {
+    font-size: large;
+    padding: 1%;
+}
+.szamok {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.szamok:hover {
+    background-color: rgba(196, 196, 196, 0.05);
+}
+tr:hover{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+td.tablefont a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+td.tablefont a:hover{
+    font-weight: bolder;
+}
+tr:hover a{
+    color: white;
+}

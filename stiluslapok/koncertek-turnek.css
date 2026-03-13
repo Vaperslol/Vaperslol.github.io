@@ -45,3 +45,37 @@ table{
     height: fit-content;
     margin-bottom: 3rem;
 }
+
+td {
+    padding: 0.5%;
+    font-size: medium;
+    padding-right: fixed;
+}
+
+th {
+    font-size: x-large;
+    padding: 1%;
+}
+.szamok {
+    width: 100%;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.szamok:hover {
+    background-color: rgba(196, 196, 196, 0.05);
+}
+tr td:hover{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+td.tablefont a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+td.tablefont a:hover{
+    font-weight: bolder;
+}
+tr :hover a{
+    color: white;
+}
