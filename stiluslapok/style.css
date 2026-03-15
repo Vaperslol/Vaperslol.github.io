@@ -40,7 +40,7 @@
     --cards-Hatter: linear-gradient(to top right, #ffffff 0%, #eeeeee 100%);
     --cards-Sikerek: rgb(245, 245, 245);
     --cards-SikerH2: rgb(30, 30, 30);
-    --cards-KijeloloFeny: rgb(210, 210, 210);
+    --cards-KijeloloFeny: rgb(36, 36, 36);
 
 
     /*  EGY SZÍN  */
@@ -56,6 +56,7 @@
 
 
 #kapcsolo{
+    z-index: 5;
     height: 50px;
     width: 50px;
     border-radius: 50%;
