@@ -1,14 +1,113 @@
+:root{
+    /*  NAVBAR  */
+    --navbar-Link: rgb(210, 220, 198);
+    --navbar-ReverseAtmenet: linear-gradient(to bottom, #414141 20%, #181818 80%);
+
+    /*  ALAP WEB    */
+    --base-HatterAtmenet: linear-gradient(to top, #000000 20%, #181818 80%);
+    --base-SzovegSzin: rgb(185, 185, 185);
+    --base-LinkKijeloloSzurke: rgb(98, 98, 98);
+
+    /*  KÁRTYÁK */
+    --cards-Hatter: linear-gradient(to top right, #000000 0%, #181818 100%);
+    --cards-Sikerek: rgb(21, 21, 21);
+    --cards-SikerH2: rgb(245, 245, 245);
+    --cards-KijeloloFeny: rgb(74, 74, 74);
+
+
+    /*  EGY SZÍN  */
+    --szin-Feher: rgb(255, 255, 255);
+    --szin-Fekete: rgb(0, 0, 0);
+    --szin-Szurke: rgb(128, 128, 128);
+    --szin-Sarga: rgb(255, 255, 0);
+
+    /*  TABLAZAT    */
+    --table-HoverHatter: rgba(196, 196, 196, 0.05);
+    --table-HoverSor: rgb(50, 50, 50);
+}
+
+.lightmode{
+    /*  NAVBAR  */
+    --navbar-Link: rgb(60, 60, 60);
+    --navbar-ReverseAtmenet: linear-gradient(to bottom, #d8d8d8 20%, #f2f2f2 80%);
+
+    /*  ALAP WEB    */
+    --base-HatterAtmenet: linear-gradient(to top, #ffffff 20%, #f2f2f2 80%);
+    --base-SzovegSzin: rgb(45, 45, 45);
+    --base-LinkKijeloloSzurke: rgb(200, 200, 200);
+
+    /*  KÁRTYÁK */
+    --cards-Hatter: linear-gradient(to top right, #ffffff 0%, #eeeeee 100%);
+    --cards-Sikerek: rgb(245, 245, 245);
+    --cards-SikerH2: rgb(30, 30, 30);
+    --cards-KijeloloFeny: rgb(210, 210, 210);
+
+
+    /*  EGY SZÍN  */
+    --szin-Feher: rgb(0, 0, 0);
+    --szin-Fekete: rgb(255, 255, 255);
+    --szin-Szurke: rgb(128, 128, 128);
+    --szin-Sarga: rgb(255, 255, 0);
+
+    /*  TABLAZAT    */
+    --table-HoverHatter: rgba(0, 0, 0, 0.04);
+    --table-HoverSor: rgb(230, 230, 230);
+}
+
+
+#kapcsolo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--szin-Szurke);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#kapcsolo img:last-child{
+    display: none;
+}
+
+.lightmode #kapcsolo img:first-child{
+    display: none;
+}
+
+.lightmode #kapcsolo img:last-child{
+    display: block;
+}
+
+
+
+
+
+
 @font-face {
     font-family: 'PastorOfMuppets';
     src: url('../betutipus/pastor\ of\ muppets.ttf') format('truetype');
 }
 
 nav {
-    background: linear-gradient(to bottom, #414141 20%, #181818 80%);
+    background: var(--navbar-ReverseAtmenet);
+}
+
+nav a img:last-child{
+    display: none;
+}
+
+.lightmode nav a img:first-child{
+    display: none;
+}
+
+.lightmode nav a img:last-child{
+    display: block;
 }
 
 .nav-link {
-    color: rgb(210, 220, 198);
+    color: var(--navbar-Link);
     font-size: 1.5rem;
     letter-spacing: 1px;
     font-family: 'PastorOfMuppets', sans-serif;
@@ -21,12 +120,10 @@ nav {
 }
 
 body {
-    color: rgb(185, 185, 185);
-    background: linear-gradient(to top, #000000 20%, #181818 80%);
+    color: var(--base-SzovegSzin);
+    background: var(--base-HatterAtmenet);
 
 }
-
-
 
 main {
     padding: 20px;
@@ -117,14 +214,6 @@ li {
 .nav-link\ active,
 .nav-link {
     font-size: 2em;
-}
-
-.borito {
-    float: right;
-    width: 240px;
-    border: 1px solid black;
-    margin-left: 1em;
-    margin-bottom: 1em;
 }
 
 a {

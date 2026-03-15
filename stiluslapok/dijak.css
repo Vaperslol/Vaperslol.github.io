@@ -10,7 +10,7 @@
     z-index: 1;
     border: 1px solid;
     border-radius: 25px;
-    background-color: rgb(21, 21, 21);
+    background-color: var(--cards-Sikerek);
 }
 
 .dijak:hover{
@@ -23,7 +23,7 @@
 .dijak h2{
     padding-top: 1rem;
     text-align: center;
-    color: whitesmoke;
+    color: var(--cards-SikerH2);
 }
 
 
@@ -38,11 +38,11 @@
     height: auto;
     display: block;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px solid var(--szin-Fekete);
 }
 
 @keyframes wave-shadow{
-    50% {box-shadow: 2px 2px 90px rgb(74, 74, 74);}
+    50% {box-shadow: 2px 2px 90px var(--cards-KijeloloFeny);}
 }
 
 a.dijas{

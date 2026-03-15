@@ -6,9 +6,9 @@
 .card {
     padding: 3%;
     margin: 3%;
-    background: linear-gradient(to top right, #000000 0%, #181818 100%);
-    border: none;
-    color: rgb(185, 185, 185);
+    background: var(--cards-Hatter);
+    border: 1px solid var(--szin-Fekete);
+    color: var(--base-SzovegSzin);
     font-weight: normal;
 }
 
@@ -18,7 +18,7 @@ div.card\ mb-3 {
 }
 
 .card a{
-    color: white;
+    color: var(--szin-Feher);
     font-family: 'PastorOfMuppets';
     font-weight: normal;
     font-size: xx-large;
@@ -30,12 +30,12 @@ div.card\ mb-3 {
 }
 
 .card a:hover{
-    color: gray;
-    text-shadow: 0 0 10px rgb(98, 98, 98);
+    color: var(--szin-Szurke);
+    text-shadow: 0 0 10px var(--base-LinkKijeloloSzurke);
 }
 
 .card img{
-    border: 1px solid white;
+    border: 1px solid var(--szin-Feher);
     border-radius: 2%;
 }
 
@@ -55,19 +55,27 @@ th {
 }
 
 .szamok:hover {
-    background-color: rgba(196, 196, 196, 0.05);
+    background-color: var(--table-HoverHatter);
 }
 tr:hover{
-    background-color: rgb(50, 50, 50);
-    color: white;
+    background-color: var(--table-HoverSor);
+    color: var(--szin-Feher);
 }
 td.tablefont a{
-    color: rgb(255, 255, 255);
+    color: var(--szin-Feher);
     font-weight: bold;
 }
 td.tablefont a:hover{
     font-weight: bolder;
 }
 tr:hover a{
-    color: white;
+    color: var(--szin-Feher);
+}
+
+.borito {
+    float: right;
+    width: 240px;
+    border: 1px solid var(--szin-Fekete);
+    margin-left: 1em;
+    margin-bottom: 1em;
 }

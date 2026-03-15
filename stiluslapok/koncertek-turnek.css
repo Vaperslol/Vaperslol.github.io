@@ -7,9 +7,9 @@
 .card {
     margin: 3%;
     padding: 3%;
-    background: linear-gradient(to top, #000000 0%, #353535 100%);
-    border: none;
-    color: rgb(255, 255, 255);
+    background: var(--cards-Hatter);
+    border: 1px solid var(--szin-Fekete);
+    color: var(--base-SzovegSzin);
     font-weight: normal;
     display: block;
 }
@@ -38,7 +38,7 @@ h5{
     margin: auto;
     margin-bottom: 3rem;
     width: 30rem;
-    border: 3px solid yellow
+    border: 3px solid var(--szin-Sarga);
 }
 
 table{
@@ -63,19 +63,19 @@ th {
 }
 
 .szamok:hover {
-    background-color: rgba(196, 196, 196, 0.05);
+    background-color: var(--table-HoverHatter);
 }
 tr td:hover{
-    background-color: rgb(50, 50, 50);
-    color: white;
+    background-color: var(--table-HoverSor);
+    color: var(--szin-Feher);
 }
 td.tablefont a{
-    color: rgb(255, 255, 255);
+    color: var(--szin-Feher);
     font-weight: bold;
 }
 td.tablefont a:hover{
     font-weight: bolder;
 }
 tr :hover a{
-    color: white;
+    color: var(--szin-Feher);
 }
