@@ -38,7 +38,7 @@ h5{
     margin: auto;
     margin-bottom: 3rem;
     width: 30rem;
-    border: 3px solid var(--szin-Sarga);
+    border: 3px solid;
 }
 
 table{
