@@ -23,6 +23,9 @@
     --szin-Piros: rgb(189, 0, 0);
     --szin-Lila: rgb(128, 0, 128);
     --szin-VilagosKek: rgb(0, 180, 255);
+    --szin-Kek: rgb(0, 0, 204);
+    --szin-Narancs: rgb(224, 135, 0);
+    --szin-Zold: rgb(0, 151, 0);
 
     /*  TABLAZAT    */
     --table-HoverHatter: rgba(196, 196, 196, 0.05);
@@ -54,6 +57,9 @@
     --szin-Piros: rgb(220, 38, 38);
     --szin-Lila: rgb(160, 60, 200);
     --szin-VilagosKek: rgb(0, 180, 255);
+    --szin-Kek: rgb(0, 0, 204);
+    --szin-Narancs: rgb(224, 135, 0);
+    --szin-Zold: rgb(0, 104, 0);
 
     /*  TABLAZAT    */
     --table-HoverHatter: rgba(0, 0, 0, 0.04);
